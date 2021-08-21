@@ -8,5 +8,6 @@
   },
   "scripts": {
     "prepare": "husky install"
-  }
+  },
+  "version": "1.0.0"
 }
