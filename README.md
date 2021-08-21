@@ -14,7 +14,12 @@ This is a dummy project example to test our packages
 
 ## Instalation
 
-1. Run npm installation process
+1. Clone this repository
+   ```sh
+   git clone https://github.com/EPJA-popit/dummy.git
+   ```
+
+2. Run npm installation process
    ```sh
    npm i
    ```
