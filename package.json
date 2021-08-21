@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@popit/cli": "^1.0.2"
+  },
+  "devDependencies": {
+    "husky": "^7.0.0",
+    "pretty-quick": "^3.1.1"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
