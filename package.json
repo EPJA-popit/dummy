@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@popit/cli": "^1.0.2"
+    "@popit/cli": "^1.0.3"
   },
   "devDependencies": {
     "husky": "^7.0.0",
