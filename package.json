@@ -9,5 +9,18 @@
   "scripts": {
     "prepare": "husky install"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "name": "@popit/dummy",
+  "description": "This is a dummy project example to test our packages",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EPJA-popit/dummy.git"
+  },
+  "author": "popit team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EPJA-popit/dummy/issues"
+  },
+  "homepage": "https://github.com/EPJA-popit/dummy#readme"
 }
