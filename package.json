@@ -8,7 +8,8 @@
     "pretty-quick": "^3.1.1"
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "npx popit-cli --server"
   },
   "version": "1.0.0",
   "name": "@popit/dummy",
