@@ -1,0 +1,4 @@
+
+> @popit/dummy@1.0.0 start
+> npx popit-cli --server
+
