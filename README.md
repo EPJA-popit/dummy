@@ -6,28 +6,30 @@ This is a dummy project example to test our packages
 
 ### Built With
 
-*  [@popit/cli](https://www.npmjs.com/package/@popit/cli)
+- [@popit/cli](https://www.npmjs.com/package/@popit/cli)
 
 ## Prerequisites
 
-* [node v14+](https://nodejs.org/en/download/)
+- [node v14+](https://nodejs.org/en/download/)
 
 ## Instalation
 
 1. Clone this repository
+
    ```sh
    git clone https://github.com/EPJA-popit/dummy.git
    ```
 
 2. Run npm installation process
+
    ```sh
    npm i
    ```
 
-2. Run @popit/cli package initialization script
-    ```sh
-    npx popit-cli --init
-    ```
+3. Run @popit/cli package initialization script
+   ```sh
+   npx popit-cli --init
+   ```
 
 ## Testing
 
