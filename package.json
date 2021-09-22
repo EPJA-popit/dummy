@@ -1,27 +1,29 @@
 {
+  "main": "./src/index.tsx",
   "dependencies": {
-    "@popit/cli": "^1.0.3",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "babel-preset-react-app": "^10.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@types/react": "^17.0.20",
+    "@types/react": "^17.0.24",
     "@types/react-dom": "^17.0.9",
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
     "prettier": "2.4.1",
     "pretty-quick": "^3.1.1",
     "ts-loader": "^9.2.5",
-    "typescript": "^4.4.2"
+    "typescript": "^4.4.3"
   },
   "scripts": {
     "prepare": "husky install",
-    "start": "npx popit-cli --server"
+    "start": "BABEL_ENV=development npx popit-cli --server"
   },
   "version": "1.0.0",
   "name": "@popit/dummy",
   "description": "This is a dummy project example to test our packages",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/EPJA-popit/dummy.git"
@@ -34,5 +36,17 @@
   "homepage": "https://github.com/EPJA-popit/dummy#readme",
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
