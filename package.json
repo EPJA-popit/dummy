@@ -1,15 +1,17 @@
 {
   "main": "./src/index.tsx",
   "dependencies": {
-    "@babel/preset-react": "^7.14.5",
+    "@popit/cli": "^1.1.9",
+    "@popit/fire.app": "^1.1.1",
     "babel-loader": "^8.2.2",
-    "babel-preset-react-app": "^10.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
     "@types/react": "^17.0.24",
     "@types/react-dom": "^17.0.9",
+    "babel-preset-react-app": "^10.0.0",
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
     "prettier": "2.4.1",
@@ -19,7 +21,7 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "start": "BABEL_ENV=development npx popit-cli --server"
+    "start": "popit-cli --server"
   },
   "version": "1.0.0",
   "name": "@popit/dummy",
